@@ -1,0 +1,16 @@
+<svg id="circle_multiple" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="58.775" height="58.775"
+    viewBox="0 0 58.775 58.775">
+    <defs>
+        <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5"
+            gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ff6b6b" />
+            <stop offset="1" stop-color="#c0392b" />
+        </radialGradient>
+    </defs>
+    <path d="M29.388,0A29.388,29.388,0,1,0,58.775,29.388,29.42,29.42,0,0,0,29.388,0Zm0,0"
+        fill="url(#radial-gradient)" id="Path_971" />
+    <path id="Path_972"
+        d="M172.855,170.163a1.9,1.9,0,1,1-2.692,2.692l-5.721-5.721-5.721,5.721a1.9,1.9,0,1,1-2.692-2.692l5.721-5.721-5.721-5.721a1.9,1.9,0,1,1,2.692-2.692l5.721,5.721,5.721-5.721a1.9,1.9,0,1,1,2.692,2.692l-5.721,5.721Zm0,0"
+        transform="translate(-135.486 -134.624)" fill="#fafafa" />
+</svg>

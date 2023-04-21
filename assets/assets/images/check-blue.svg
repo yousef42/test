@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+ <svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 59 59" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<radialGradient cx="29.5" cy="29.5" gradientTransform="matrix(1 0 0 1 0 0)" gradientUnits="userSpaceOnUse" id="RadialGradient" r="61.183">
+<stop offset="0" stop-color="#45AAF2"/>
+<stop offset="1" stop-color="#1257a2"/>
+</radialGradient>
+</defs>
+<g id="check">
+<path d="M29.5 0C45.7924 5.4948e-08 59 13.2076 59 29.5C59 45.7924 45.7924 59 29.5 59C13.2076 59 2.51503e-06 45.7924 5.4948e-08 29.5C-2.9654e-06 13.2076 13.2076 3.0204e-07 29.5 0Z" fill="url(#RadialGradient)" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M26 37.361C25.3844 37.3613 24.7939 37.1167 24.359 36.681L19.4 31.722C18.8663 31.1882 18.8663 30.3228 19.4 29.789L19.4 29.789C19.9338 29.2553 20.7992 29.2553 21.333 29.789L26 34.457L38.35 22.107C38.8838 21.5733 39.7492 21.5733 40.283 22.107L40.283 22.107C40.8167 22.6408 40.8167 23.5062 40.283 24.04L27.643 36.681C27.2076 37.1172 26.6163 37.3619 26 37.361Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="#ffffff" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="2"/>
+</g>
+</svg>

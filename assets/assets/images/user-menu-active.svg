@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="182.103"
+    height="217.418" viewBox="0 0 182.103 217.418">
+    <defs>
+        <linearGradient id="linear-gradient" x1="0.936" y1="0.045" x2="0.936" y2="1.036"
+            gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f7e6a6" />
+            <stop offset="1" stop-color="#ffd532" />
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1="0.5" y1="0.268" x2="0.549" y2="1"
+            gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f7e6a6" />
+            <stop offset="1" stop-color="#ffd32a" />
+        </linearGradient>
+    </defs>
+    <g id="user_yellow" transform="translate(-434 -543.981)">
+        <path
+            d="M82.558,4a47.7,47.7,0,0,1,47.634,47.634c.2,38.513-44.433,61.161-75.221,38.761C17.567,63.692,36.15,4.321,82.558,4Z"
+            fill="#ffa801" id="result_3_" transform="translate(442.97 553.049)" />
+        <path id="result_3_2"
+            d="M82.558,4a47.7,47.7,0,0,1,47.634,47.634c.2,38.513-44.433,61.161-75.221,38.761C17.567,63.692,36.15,4.321,82.558,4Z"
+            transform="translate(442.97 539.981)" fill="url(#linear-gradient)" />
+        <path id="result_3_3"
+            d="M161.418,101.234a90.244,90.244,0,0,0-20.514-15.4,61.185,61.185,0,0,1-5.321,5.111c-21.012,19.063-57.6,19.533-79.114.979a55.511,55.511,0,0,1-5.391-4.935A90.656,90.656,0,0,0,5.99,165.611a19.093,19.093,0,0,0,19.078,19.043H169.014a19.093,19.093,0,0,0,19.078-19.043,90.453,90.453,0,0,0-26.675-64.376Z"
+            transform="translate(428.01 576.745)" fill="#ffa801" />
+        <path id="result_3_4"
+            d="M161.418,101.234a90.244,90.244,0,0,0-20.514-15.4,61.185,61.185,0,0,1-5.321,5.111c-21.012,19.063-57.6,19.533-79.114.979a55.511,55.511,0,0,1-5.391-4.935A90.656,90.656,0,0,0,5.99,165.611a19.093,19.093,0,0,0,19.078,19.043H169.014a19.093,19.093,0,0,0,19.078-19.043,90.453,90.453,0,0,0-26.675-64.376Z"
+            transform="translate(428.01 560.114)" fill="url(#linear-gradient-2)" />
+    </g>
+</svg>

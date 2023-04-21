@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+ <svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 23.506 49.559" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<clipPath id="ArtboardFrame">
+<rect height="49.559" width="23.506" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="angle-righht-shadow">
+<path d="M2.50002 44.656C2.49973 44.0332 2.74728 43.4359 3.18802 42.996L15.178 31.006C16.7042 29.4801 16.7042 27.0058 15.178 25.48L3.20302 13.502C2.28761 12.5857 2.28828 11.1009 3.20452 10.1855C4.12076 9.27006 5.60561 9.27073 6.52102 10.187L18.492 22.16C21.847 25.5179 21.847 30.9591 18.492 34.317L6.50202 46.306C5.83247 46.9744 4.82675 47.1747 3.95216 46.814C3.07758 46.4532 2.50561 45.602 2.50202 44.656L2.50002 44.656Z" fill="none" opacity="1" stroke="#207881" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="5"/>
+<path d="M2.50002 37.656C2.49973 37.0332 2.74728 36.4359 3.18802 35.996L15.178 24.006C16.7042 22.4801 16.7042 20.0058 15.178 18.48L3.20302 6.50197C2.28761 5.58573 2.28828 4.10088 3.20452 3.18547C4.12076 2.27006 5.60561 2.27073 6.52102 3.18697L18.492 15.16C21.847 18.5179 21.847 23.9591 18.492 27.317L6.50202 39.306C5.83247 39.9744 4.82675 40.1747 3.95216 39.814C3.07758 39.4532 2.50561 38.602 2.50202 37.656L2.50002 37.656Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="#ffffff" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="5"/>
+</g>
+</svg>
