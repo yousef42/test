@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+      If you are serving your web app in a path other than the root, change the
+      href value below to reflect the base path you are serving from.
+
+      The path provided below has to start and end with a slash "/" in order for
+      it to work correctly.
+
+      For more details:
+      * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+      This is a placeholder for base href that will be replaced by the value of
+      the `--base-href` argument provided to `flutter build`.
+    -->
+    <base href="/">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="گیفت20">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="گیفت20">
+    <link rel="apple-touch-icon" href="icons/android-chrome-192x192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.ico"/>
+    <title>گیفت20</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="loader.css">
+
+    <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = '750530713';
+
+
+
+    </script>
+    <!-- This script adds the flutter initialization JS code -->
+
+
+    <script src="flutter.js" defer></script>
+
+
+</head>
+<body>
+
+<div class="container">
+    <div class="progress-bar__container">
+        <div class="progress-bar">
+        </div>
+    </div>
+    <p>در حال بارگذاری...</p>
+
+</div>
+
+
+<script src="gsap.min.js"></script>
+<script>
+function updateProgress(num) {
+  const progressBarContainer = document.querySelector('.progress-bar__container');
+  const progressBar = document.querySelector('.progress-bar');
+
+  let time = 0;
+  let endState = 100;
+
+  gsap.to(progressBar, {
+    x: num + "%",
+    duration: 2,
+  });
+}
+    window.addEventListener('load', function(ev) {
+      updateProgress(15);
+       _flutter.loader.loadEntrypoint({
+       entrypointUrl: "/main.dart.js",
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+          serviceWorkerUrl: "/flutter_service_worker.js?v=",
+        }
+      }).then(function(engineInitializer) {
+         updateProgress(70);
+
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+                 updateProgress(99);
+        return appRunner.runApp();
+      });
+    });
+
+
+<!--var serviceWorkerVersion = null;-->
+<!--    var scriptLoaded = false;-->
+<!--    function loadMainDartJs() {-->
+<!--      if (scriptLoaded) {-->
+<!--        return;-->
+<!--      }-->
+<!--      scriptLoaded = true;-->
+<!--      var scriptTag = document.createElement('script');-->
+<!--      scriptTag.src = 'main.dart.js';-->
+<!--      scriptTag.type = 'application/javascript';-->
+<!--      document.body.append(scriptTag);-->
+<!--    }-->
+
+<!--    if ('serviceWorker' in navigator) {-->
+<!--      // Service workers are supported. Use them.-->
+<!--      window.addEventListener('load', function () {-->
+<!--        // Wait for registration to finish before dropping the <script> tag.-->
+<!--        // Otherwise, the browser will load the script multiple times,-->
+<!--        // potentially different versions.-->
+<!--        var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;-->
+<!--        navigator.serviceWorker.register('./service-worker.js')-->
+<!--          .then((reg) => {-->
+<!--            function waitForActivation(serviceWorker) {-->
+<!--              serviceWorker.addEventListener('statechange', () => {-->
+<!--                if (serviceWorker.state == 'activated') {-->
+<!--                  console.log('Installed new service worker.');-->
+<!--                  loadMainDartJs();-->
+<!--                }-->
+<!--              });-->
+<!--            }-->
+<!--            if (!reg.active && (reg.installing || reg.waiting)) {-->
+<!--              // No active web worker and we have installed or are installing-->
+<!--              // one for the first time. Simply wait for it to activate.-->
+<!--              waitForActivation(reg.installing ?? reg.waiting);-->
+<!--            } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {-->
+<!--              // When the app updates the serviceWorkerVersion changes, so we-->
+<!--              // need to ask the service worker to update.-->
+<!--              console.log('New service worker available.');-->
+<!--              reg.update();-->
+<!--              waitForActivation(reg.installing);-->
+<!--            } else {-->
+<!--              // Existing service worker is still good.-->
+<!--              console.log('Loading app from service worker.');-->
+<!--              loadMainDartJs();-->
+<!--            }-->
+<!--          });-->
+
+<!--        // If service worker doesn't succeed in a reasonable amount of time,-->
+<!--        // fallback to plaint <script> tag.-->
+<!--        setTimeout(() => {-->
+<!--          if (!scriptLoaded) {-->
+<!--            console.warn(-->
+<!--              'Failed to load app from service worker. Falling back to plain <script> tag.',-->
+<!--            );-->
+<!--            loadMainDartJs();-->
+<!--          }-->
+<!--        }, 4000);-->
+<!--      });-->
+<!--    } else {-->
+<!--      // Service workers not supported. Just drop the <script> tag.-->
+<!--      loadMainDartJs();-->
+<!--    }-->
+
+
+
+</script>
+
+</body>
+</html>
